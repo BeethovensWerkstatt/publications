@@ -2,11 +2,9 @@
 layout: news
 title: Vortrag bei der MEC 2024
 date: 2024-05-27
-excerpt:
 authors:
-- Susanne Cox
-version: 1.0.0
-doi: 
+- Beethovens Werkstatt
+version: 1.0.0 
 ---
 
 Bei der diesjährigen [Music Encoding Conference], die vom 20. bis zum 23. Mai 2024 in der University of North Texas stattfand, hielt Johannes Kepper gemeinsam mit Lisa Rosendahl und Richard Sänger ein Long Paper zum Thema „Beyond the Standard Model“, das sich mit Empfehlungen beschäftigte, wie etwaige notwendige Erweiterungen von MEI vorgeschlagen und umgesetzt werden sollten.

@@ -4,12 +4,12 @@ title:
 date:
 place: only for poster
 event: only for poster
-excerpt:
+excerpt: not for news
 authors:
 - person
 - person
 version:
-doi:
+doi: not for news
 ---
 
 glossary, publication and news: 
