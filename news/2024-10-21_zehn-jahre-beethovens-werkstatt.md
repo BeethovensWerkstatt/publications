@@ -4,9 +4,8 @@ title: Zehn Jahre Beethovens Werkstatt
 date: 2024-10-21
 excerpt:
 authors:
-- Susanne Cox
+- Beethovens Werkstatt
 version: 1.0.0
-doi: 10.5281/zenodo.14545152
 ---
 
 
