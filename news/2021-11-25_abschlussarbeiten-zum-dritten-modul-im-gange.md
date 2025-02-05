@@ -11,12 +11,12 @@ Bei einem Treffen am 22./23. November 2021 in Bonn konnte ein wichtiger Zwischen
 
 <figure>
     <img src="./images/2021-11-25_abschlussarbeiten-zum-dritten-modul-im-gange_schreibtischansicht.png" alt="Schreibtischansicht" />
-    <figcaption>_Schreibtisch-Ansicht_ der VideApp</figcaption>
+    <figcaption>"Schreibtisch-Ansicht" der VideApp</figcaption>
 </figure>
 
 <figure>
     <img src="./images/2021-11-25_abschlussarbeiten-zum-dritten-modul-im-gange_komparative-ansicht.png" alt="Komparative Ansicht" />
-    <figcaption>_Komparative Ansicht_ zum Vergleich eines Textsegments in Ausgangs-, Revisions- und Zieldokument</figcaption>
+    <figcaption>"Komparative Ansicht" zum Vergleich eines Textsegments in Ausgangs-, Revisions- und Zieldokument</figcaption>
 </figure>
 
 <figure>
