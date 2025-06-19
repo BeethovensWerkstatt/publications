@@ -17,22 +17,22 @@ version: 1.0.0
 Am 5. Juli 2016 um 20:00 Uhr lädt das Projekt Beethovens Werkstatt zu einem Konzertabend im Mainzer Landtag ein. Dabei werden Grundkonzepte und Arbeitsweisen des Forschungsvorhabens vorgestellt:
 
 Bernhard R. Appel und Maja Hartwig:
-*Was erzählt Beethovens Handschrift zur Klaviersonate op. 111 über ihren Entstehungsprozess?*
-*Fragestellungen der genetischen Textkritik.*
+<em>Was erzählt Beethovens Handschrift zur Klaviersonate op. 111 über ihren Entstehungsprozess?</em>
+<em>Fragestellungen der genetischen Textkritik.</em>
 
 Joachim Veit und Elisa Novara:
-*Beethovens Arbeit an einem wirkungsvollen Abschluss des Liedes „Neue Liebe, neues Leben“, op. 75/2.*
-*Warum sich die digitale Musikedition vom bedruckten Papier verabschiedet.*
+<em>Beethovens Arbeit an einem wirkungsvollen Abschluss des Liedes „Neue Liebe, neues Leben“, op. 75/2.</em>
+<em>Warum sich die digitale Musikedition vom bedruckten Papier verabschiedet.</em>
 
 Die Vorträge werden von folgenden Musikstücken umrahmt:
 
 Ludwig van Beethoven
-*Klaviersonate c-Moll* op. 111
+<em>Klaviersonate c-Moll</em> op. 111
 
 Thomas Wypior, Klavier
 
 Ludwig van Beethoven
-*Neue Liebe, neues Leben* op. 75/2, Text von Johann Wolfgang von Goethe
+<em>Neue Liebe, neues Leben</em> op. 75/2, Text von Johann Wolfgang von Goethe
 
 Liederzyklus An die ferne Geliebte op. 98, Texte von Alois Jeitteles
 
