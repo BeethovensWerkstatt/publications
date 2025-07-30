@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="extern">CollAna</title>
+            <author ref="https://orcid.org/0000-0003-2840-128X">Anastasia Wawilow</author>
+            <editor ref="https://beethovens-werkstatt.de/">Beethovens Werkstatt</editor>
+            <funder ref="https://www.adwmainz.de/">Akademie der Wissenschaften und der Literatur Mainz</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://beethovens-werkstatt.de/">Beethovens Werkstatt</publisher>
+            <address>
+               <name>Universität Paderborn</name>
+               <addrLine>Warburger Str. 100</addrLine>
+               <addrLine>33098 Paderborn</addrLine>
+            </address>
+            <address>
+               <name>Beethoven Haus Bonn</name>
+               <addrLine>Bonngasse 24-26</addrLine>
+               <addrLine>53111 Bonn</addrLine>
+            </address>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/"/>
+            </availability>
+            <date when="2022-05-18"/>
+         </publicationStmt>
+         <sourceDesc>
+            <p>html from old project website</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-07-16">
+            <name ref="https://orcid.org/0000-0003-2915-353X">Kristin Herold</name>
+            <num n="1.0.1"/>
+            <desc>Initial transfer of article to TEI. It was coded in html initially at <date when="2022-05-18"/>.</desc>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="links">
+            <p>
+               <ptr type="software" target="https://collana.edirom.de/"/>
+               <ptr type="help" target="https://collana.edirom.de/help"/>
+               <ptr type="code" target="https://github.com/Edirom/CollAna"/>
+            </p>
+         </div>
+         <div n="text">
+            <head>Kollationswerkzeug zur vergleichenden Analyse von Musikdrucken</head>
+            <p>CollAna ist der Name eines digitalen Werkzeugs (eines Kollationstools), das einen
+               schnellen und zuverlässigen Vergleich von Notendruck-Ausgaben erlaubt, die dem ersten
+               Anschein nach mit satzidentischen Printmedien (Druckplatten, Lithographien,
+               Typendruck u. ä.) hergestellt worden sind, die sich aber im Detailvergleich
+               (Kollation) als variante Druckausgaben erweisen.</p>
+            <p>Schon in den 1940er Jahren wurde in der angelsächsischen Shakespeare-Forschung für
+               den immens aufwändigen Vergleich scheinbar gleicher Buch-Auflagen eine Apparatur
+               entwickelt, die über ein kompliziertes Beleuchtungsverfahren mit Hilfe von Spiegeln
+               die Seiten zweier Buchexemplare so übereinanderblendete, dass Druckvarianten sofort
+               und leicht erkennbar waren. Dieses von Charlton Hinman (1911–1977) entwickelte und
+               patentierte Verfahren („Hinman-Collator“) gab den Anstoß zur Entwicklung eines auf
+               Notendrucke bezogenen „eHinman“ (CollAna), der den opto-elektronischen Vergleich von
+               historischen Druckexemplaren erlaubt, aber zugleich auch im modernen Notensatz für
+               Korrekturprozesse einsetzbar ist.</p>
+            <p>Ein ähnliches Tool wurde bereits vor einigen Jahren von Laurent Pugin im Rahmen des
+                  <ref target="http://www.aruspix.net">Aruspix-Projekts</ref> an der McGill
+               University entwickelt. Es erlaubt den Vergleich von Musikdrucken des 16./17.
+               Jahrhunderts. Das Verfahren ähnelt dem von CollAna: Das unterschiedlich eingefärbte
+               graphische Erscheinungsbild („Text“) zweier, als identisch vermuteter Seiten aber
+               möglicherweise differenter Druckausgaben wird übereinandergeblendet, so dass auf
+               einen Blick die partielle Identität bzw. deren Varianz zu erkennen ist. Aruspix
+               zielte aber als Vorstufe eines Optical Music Recognition-Prozesses (OMR) letztlich
+               auf die komplette Erfassung der Inhalte und ihrer Varianten, was im Bereich der
+               älteren Musiküberlieferung angesichts des beschränkteren Zeichenvorrats leichter
+               realisierbar ist als in hochkomplexen Notensatzbildern späterer Jahrhunderte.</p>
+            <p>Das im Rahmen der im <ref target="https://zenmem.de/">ZenMEM</ref> entwickelten
+               Werkzeuge für die digitale Musikedition entwickelte Kollationierungs- und
+               Analyse-Tool <ref target="https://collana.edirom.de/">CollAna</ref> (bitte mit dem
+               Chrome-Browser öffnen) erlaubt einen Vergleich von Musikdrucken auch des 18.–20.
+               Jahrhunderts. Diese besitzen eine hohe Zeichendichte (z. B. im Bereich der 
+               <ref target="https://beethovens-werkstatt.de/glossary/primaere-und-sekundaere-notation/">sekundären Notation</ref>)
+               und oft auch minimale graphische Zeichendifferenz
+               (etwa im Hinblick auf Schlüsselformen, Balkensteigungen, Notenabstände usw.). CollAna
+               bietet eine diesbezügliche feingranulare Vergleichsmöglichkeit. In vielen Fällen
+               genügt eine simple Überblendung transparenter Vorlagen nicht, weil durch die
+               wiederholte mechanische Beanspruchung der Druckplatten (im Zuge von Nachdrucken) in
+               den Druckausgaben minimale graphische Differenzen auftreten, die jedoch nicht als
+               Textvarianten, sondern lediglich als mechanisch verursachte, graphische Verformungen
+               des Textbildes verstanden werden müssen. Um derartige vertikale und horizontale
+               Verzerrungen auszugleichen, hat CollAna perspektivische Korrektur- und
+               Skalierungsmöglichkeiten entwickelt.</p>
+            <p>Darüber hinaus kann das Werkzeug ggf. auch dazu dienen, zeilenfall-identischen
+               Nachstich schnell und klar zu identifizieren, weil die minimalen horizontalen und
+               vertikalen Differenzen der Zeichenfolge unmittelbar sichtbar werden. Diese Anwendung
+               funktioniert sowohl auf der Ebene gesamter Seiten, als auch in Teilbereichen der
+               Seiten, wodurch das Werkzeug den Erfordernissen der Kollationierungspraxis vollkommen
+               entspricht. Eine gegenwärtig noch nicht integrierte Lupenfunktion soll bei
+               undeutlichen Sachverhalten Detailstudien erleichtern. Neben der Möglichkeit des
+               parallelen Blätterns durch vorhandene Digitalisate in den gängigen Formaten (*.jpg,
+               *.tiff, *.png, *.pdf) ist geplant, eine direkte Kollation der in jüngerer Zeit von
+               den Gedächtnisinstitutionen zunehmend im IIIF-Standard zur Verfügung gestellten
+               Digitalisate zu realisieren.</p>
+            <p>In der Testphase des Werkzeugs hat sich gezeigt, dass das Ausmaß der Eingriffe in
+               historische Druckplatten erheblich größer ist als bislang angenommen. Insofern kann
+               dieses Tool auch einen wertvollen Beitrag zur Materialitätsforschung leisten und die
+               Geschichte des Notendrucks erhellen. Dass CollAna auch Korrekturvorgänge im Bereich
+               des aktuellen Notenneusatzes wesentlich erleichtert, ist ein willkommener Nebeneffekt
+               des Werkzeugs.</p>
+            <p>Ebenso wurde durch die ersten Erfahrungen beim transparenten Überlagern von digitalen
+               Fotografien oder digitalen Scans deutlich, dass die wiederholte Belastung der
+               Druckplatten bei neuen Druckvorgängen zu Dehnungen führen kann, die nicht zwingend
+               die gesamte Platte, sondern auch Teilbereiche betreffen. Die Anforderungen an die
+               perspektivischen Korrekturmöglichkeiten erweisen sich damit als komplexer als
+               zunächst angenommen.</p>
+            <p>Das Tool bietet gegenwärtig die Möglichkeit, die Ergebnisse der Überlagerungen zu
+               exportieren; geplant ist längerfristig auch die Speicherung von Zwischenergebnissen,
+               um unterschiedliche Granularitäten der Erfassung solcher Plattenvergleiche zu
+               erreichen bzw. für eingehendere Forschungen jeweils Vorarbeiten nachnutzbar zu
+               machen.</p>
+            <lb/>
+            <p><hi rend="italic">Beethovens Werkstatt</hi> beschäftigt sich in Modul 3 mit
+               Beethovens <ref target="https://beethovens-werkstatt.de/glossary/revisionsdokument/">Revisionsdokumenten</ref>, die zum Teil an ihn selbst oder an seine Verleger
+               gerichtet waren, um Änderungswünsche in einer weiteren Auflage zu veranlassen.
+               CollAna ermöglicht dabei den Vergleich von Druckplatten bzw. präziser den davon
+               angefertigten Plattenabzügen untereinander, um festzustellen, welche der von
+               Beethoven im Revisionsdokument mitgeteilten Änderungen in einer späteren Auflage
+               übernommen wurden und ob bzw. wo der Verleger zusätzliche Änderungen vorgenommen hat.
+               Ein detaillierter Vergleich steht dabei für die erste und zweite Auflage der
+               Originalausgabe des 5. Klavierkonzerts op. 73 zur Verfügung.</p>
+         </div>
+         <div n="version">
+            <p>
+               <name ref="https://orcid.org/0000-0003-2840-128X">Anastasia Wawilow</name>
+               <date when="2022-05-18">18.5.2022</date>
+               <num n="1.0.1">Version 1.0.1</num>
+            </p>
+         </div>
+         <div n="doi">
+            <p>
+               <ptr type="zenodo-all" target="10.5281/zenodo.14671565"/>
+               <ptr type="zenodo-single" n="1.0.1" target="10.5281/zenodo.14671566"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
