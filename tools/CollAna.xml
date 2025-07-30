@@ -35,7 +35,7 @@
       <revisionDesc>
          <change when="2025-07-16">
             <name ref="https://orcid.org/0000-0003-2915-353X">Kristin Herold</name>
-            <desc>Initial transfer of html article to TEI.</desc>
+            <desc>Adapt file to v1.0.2</desc>
          </change>
       </revisionDesc>
    </teiHeader>
@@ -123,7 +123,7 @@
             <p><hi rend="italic">Beethovens Werkstatt</hi> beschäftigt sich in Modul 3 mit
                Beethovens <ref target="https://beethovens-werkstatt.de/glossary/revisionsdokument/">Revisionsdokumenten</ref>, die zum Teil an ihn selbst oder an seine Verleger
                gerichtet waren, um Änderungswünsche in einer weiteren Auflage zu veranlassen.
-               CollAna ermöglicht dabei den Vergleich von Druckplatten bzw. präziser den davon
+               CollAna ermöglicht dabei den <ref target="https://beethovens-werkstatt.de/glossary/druckplattenvergleich/">Vergleich von Druckplatten</ref> bzw. präziser den davon
                angefertigten Plattenabzügen untereinander, um festzustellen, welche der von
                Beethoven im Revisionsdokument mitgeteilten Änderungen in einer späteren Auflage
                übernommen wurden und ob bzw. wo der Verleger zusätzliche Änderungen vorgenommen hat.
@@ -133,14 +133,15 @@
          <div n="version">
             <p>
                <name ref="https://orcid.org/0000-0003-2840-128X">Anastasia Wawilow</name>
-               <date when="2022-05-18"/>
-               <num n="1.0.1"/>
+               <date when="2022-10-03"/>
+               <num n="1.0.2"/>
             </p>
          </div>
          <div n="doi">
             <p>
                <ptr type="zenodo-all" target="10.5281/zenodo.14671565"/>
                <ptr type="zenodo-single" n="1.0.1" target="10.5281/zenodo.14671566"/>
+               <ref type="zenodo-single" n="1.0.2" target=""/>
             </p>
          </div>
       </body>
