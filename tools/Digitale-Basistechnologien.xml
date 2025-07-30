@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="extern">Digitale Basistechnologien</title>
+            <author ref="https://orcid.org/0000-0003-2915-353X">Kristin Herold</author>
+            <editor ref="https://beethovens-werkstatt.de/">Beethovens Werkstatt</editor>
+            <funder ref="https://www.adwmainz.de/">Akademie der Wissenschaften und der Literatur
+               Mainz</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://beethovens-werkstatt.de/">Beethovens Werkstatt</publisher>
+            <address>
+               <name>Universität Paderborn</name>
+               <addrLine>Warburger Str. 100</addrLine>
+               <addrLine>33098 Paderborn</addrLine>
+            </address>
+            <address>
+               <name>Beethoven Haus Bonn</name>
+               <addrLine>Bonngasse 24-26</addrLine>
+               <addrLine>53111 Bonn</addrLine>
+            </address>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/"/>
+            </availability>
+            <date when="2025-07-30"/>
+         </publicationStmt>
+         <sourceDesc>
+            <p>html from old project website</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-07-30">
+            <name ref="https://orcid.org/0000-0003-2915-353X">Kristin Herold</name>
+            <desc>Initial transfer of html article v1.0.0 to TEI.</desc>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>Digitale Basistechnologien</head>
+         <div type="text" n="1">
+            <head>Digitale Basis-Technologien für Auszeichnung, Gestaltung und Transformation von
+               Daten in <hi rend="italic">Beethovens Werkstatt</hi> – Eine systematische Einordnung
+               entlang des Projektablaufs</head>
+            <p>Das Forschungsprojekt <hi rend="italic">Beethovens Werkstatt</hi> nutzt verschiedene
+               grundlegende digitale Technologien der Auszeichnung, Gestaltung und Transformation,
+               um historische Notenquellen und Bearbeitungsprozesse zu dokumentieren, aufzubereiten
+               und nutzbar zu machen.</p>
+            <p>Diese Technologien sind nicht isoliert zu betrachten – sie bilden ein eng verzahntes
+               digitales Ökosystem. Die folgenden Phasen beschreiben, wie diese Technologien konkret
+               im Projektverlauf eingesetzt werden – von der Erfassung über die Transformation bis
+               zur visuellen Präsentation.</p>
+         </div>
+         <div type="text" n="2">
+            <head>1. Datenerfassung</head>
+            <p><hi rend="bold">Technologie</hi>: XML</p>
+            <p>Ein erster (digitaler) Schritt in Beethovens Werkstatt ist die <hi rend="bold">strukturierte
+               Erfassung</hi> von Quellen – etwa Manuskripten, Skizzen oder Drucken. Diese Daten werden
+               mit sogenannten <hi rend="bold">Auszeichnungssprachen (Markup)</hi> versehen. Dabei kommen XML-basierte
+               Formate wie <ref target="https://tei-c.org/">TEI</ref> (für Texte) oder <ref target="https://music-encoding.org/">MEI</ref> (für Musiknotation) zum Einsatz.</p>
+            <list>
+               <item>Das <hi rend="bold">Markup</hi> dient dazu, inhaltliche, formale und quellenkritische Merkmale explizit auszuzeichnen – z. B. Taktzahlen, Korrekturen, Kommentierungen oder musikalische Strukturen.</item>
+               <item>Mit <hi rend="bold">Tags</hi> werden konkrete Informationen wie <code>note</code>, <code>measure</code>, <code>sourceDesc</code> in MEI ausgezeichnet oder auch projektinterne Markierungen für Bearbeitungsstufen oder Varianten.</item>
+            </list>
+            <p><hi rend="bold">Ziel</hi>: Die komplexe Materiallage Beethovens wird so maschinenlesbar und für weitere Schritte systematisch vorbereitet.</p>
+            <p><hi rend="bold">Allgemeine Lektüre</hi>: https://developer.mozilla.org/en-US/docs/Web/XML</p>
+         </div>
+         <div type="version">
+            <p>
+               <name ref="https://orcid.org/0000-0003-2915-353X">Kristin Herold</name>
+               <date when="2025-07-30"/>
+               <num n="1.0.0"/>
+            </p>
+         </div>
+         <div type="text" n="2">
+            <head>2. Transformation</head>
+            <p><hi rend="bold">Technologie</hi>: XSLT</p>
+            <p>Sobald die Quellmaterialien ausgezeichnet sind, werden sie mithilfe von <hi rend="bold">XSLT (eXtensible Stylesheet Language for Transformations)</hi> in verschiedene Formate überführt. Dies ist ein zentraler Bestandteil des Projekts.</p>
+            <list>
+               <item>Beispielsweise lassen sich <hi rend="bold">XML-Daten</hi> in <hi rend="bold">HTML</hi> transformieren, sodass sie im Browser darstellbar werden.</item>
+               <item>Ebenso können verschiedene Bearbeitungszustände Beethovens gegeneinander vergleichbar gemacht werden: XSLT filtert, konvertiert und erzeugt Variantenansichten oder Synchronisierungen.</item>
+               <item>Auch Querverweise und Datenexporte werden über XSLT ermöglicht.</item>
+            </list>
+            <p><hi rend="bold">Ziel</hi>: Automatisierte Verarbeitung von Daten für Ausgabe, Analyse und visuelle Darstellung.</p>
+            <p><hi rend="bold">Allgemeine Lektüre</hi>: https://developer.mozilla.org/en-US/docs/Web/XML/XSLT</p>
+         </div>
+         <div type="text" n="3">
+            <head>3. Web-Präsentation</head>
+            <p><hi rend="bold">Technologie</hi>: HTML</p>
+            <p><hi rend="italic">Beethovens Werkstatt</hi> präsentiert Publikationen und Projektergebnisse über das Web. Dabei bildet <hi rend="bold">HTML</hi> die technische Basisstruktur der Benutzeroberfläche.</p>
+            <p><hi rend="bold">Ziel</hi>: Anzeige der Projektergebnisse in einem Browser.</p>
+            <p><hi rend="bold">Allgemeine Lektüre</hi>: https://developer.mozilla.org/en-US/docs/Web/HTML</p>
+         </div>
+         <div type="text" n="4">
+            <head>4. Gestaltung</head>
+            <p><hi rend="bold">Technologie</hi>: CSS | Sass</p>
+            <p>Die visuelle Gestaltung der Plattform erfolgt über <hi rend="bold">CSS (Cascading Stylesheets)</hi> – ergänzt durch <hi rend="bold">Sass</hi>, ein CSS-Präprozessor.</p>
+            <list>
+               <item><hi rend="bold">CSS</hi> steuert grundlegende Design-Aspekte: Farben, Abstände, Schriftarten, Layouts.</item>
+               <item><hi rend="bold">Sass</hi> und <hi rend="bold">CSS</hi> sorgen dafür, dass interaktive Elemente klar strukturiert und optisch erkennbar sind – z. B. Hover-Zustände oder Auswahl-Highlights.</item>
+            </list>
+            <p><hi rend="bold">Ziel</hi>: Ein benutzerfreundliches Interface für wissenschaftliche Inhalte.</p>
+            <p><hi rend="bold">Allgemeine Lektüre</hi>: https://developer.mozilla.org/de/docs/Web/CSS</p>
+         </div>
+         <div type="version">
+            <p>
+               <name ref="https://orcid.org/0000-0003-2915-353X">Kristin Herold</name>
+               <date when="2025-07-30"/>
+               <num n="1.0.0"/>
+            </p>
+         </div>
+         <div type="doi">
+            <p>
+               <ptr type="zenodo-all" target="10.5281/zenodo.16610434"/>
+               <ptr type="zenodo-single" n="1.0.0" target="10.5281/zenodo.16610435"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
