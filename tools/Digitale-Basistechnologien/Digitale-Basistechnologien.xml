@@ -43,7 +43,7 @@
    <text>
       <body>
          <head>Digitale Basistechnologien</head>
-         <div type="text" n="1">
+         <div type="text" n="0">
             <head>Digitale Basis-Technologien für Auszeichnung, Gestaltung und Transformation von
                Daten in <hi rend="italic">Beethovens Werkstatt</hi> – Eine systematische Einordnung
                entlang des Projektablaufs</head>
@@ -56,7 +56,7 @@
                im Projektverlauf eingesetzt werden – von der Erfassung über die Transformation bis
                zur visuellen Präsentation.</p>
          </div>
-         <div type="text" n="2">
+         <div type="text" n="1">
             <head>1. Datenerfassung</head>
             <p><hi rend="bold">Technologie</hi>: XML</p>
             <p>Ein erster (digitaler) Schritt in Beethovens Werkstatt ist die <hi rend="bold">strukturierte
@@ -69,13 +69,6 @@
             </list>
             <p><hi rend="bold">Ziel</hi>: Die komplexe Materiallage Beethovens wird so maschinenlesbar und für weitere Schritte systematisch vorbereitet.</p>
             <p><hi rend="bold">Allgemeine Lektüre</hi>: https://developer.mozilla.org/en-US/docs/Web/XML</p>
-         </div>
-         <div type="version">
-            <p>
-               <name ref="https://orcid.org/0000-0003-2915-353X">Kristin Herold</name>
-               <date when="2025-07-30"/>
-               <num n="1.0.0"/>
-            </p>
          </div>
          <div type="text" n="2">
             <head>2. Transformation</head>
