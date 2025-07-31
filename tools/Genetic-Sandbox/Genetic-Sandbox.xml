@@ -44,9 +44,9 @@
          <head>Genetic Sandbox</head>
          <div type="links">
             <p>
-               <ptr type="software" target="https://edirom.github.io/Edirom-Online/"/>
-               <ptr type="help" target="https://github.com/Edirom/Edirom-Online/tree/develop/docs"/>
-               <ptr type="code" target="https://github.com/Edirom/Edirom-Online"/>
+               <ptr type="software" target="https://beethovens-werkstatt.de/sandbox/op59.3/index.html https://beethovens-werkstatt.de/sandbox/op75.2/5r/index.html"/>
+               <ptr type="help" target="https://github.com/BeethovensWerkstatt/geneticSandbox?tab=readme-ov-file#installation"/>
+               <ptr type="code" target="https://github.com/BeethovensWerkstatt/geneticSandbox"/>
             </p>
          </div>
          <div type="text">
