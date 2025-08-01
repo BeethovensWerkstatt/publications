@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="extern">MEI</title>
+            <author ref="https://orcid.org/0009-0002-8649-543X">Richard Sänger</author>
+            <funder ref="https://www.adwmainz.de/">Akademie der Wissenschaften und der Literatur
+               Mainz</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://beethovens-werkstatt.de/">Beethovens Werkstatt</publisher>
+            <address>
+               <name>Universität Paderborn</name>
+               <addrLine>Warburger Str. 100</addrLine>
+               <addrLine>33098 Paderborn</addrLine>
+            </address>
+            <address>
+               <name>Beethoven Haus Bonn</name>
+               <addrLine>Bonngasse 24-26</addrLine>
+               <addrLine>53111 Bonn</addrLine>
+            </address>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/"/>
+            </availability>
+            <date when="2015-07-15"/>
+         </publicationStmt>
+         <sourceDesc>
+            <p>html from old project website</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-08-01">
+            <name ref="https://orcid.org/0000-0003-2915-353X">Kristin Herold</name>
+            <desc>Initial transfer of html article v1.0.2 to TEI.</desc>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="links">
+            <p>
+               <ptr type="standard" target="https://music-encoding.org/"/>
+               <ptr type="documentation" target="https://music-encoding.org/guidelines/v5/content/"/>
+               <ptr type="code" target="https://github.com/music-encoding"/>
+            </p>
+         </div>
+         <div type="text">
+            <head>MEI</head>
+            <p>MEI bezeichnet als Abkürzung für <hi rend="italic">Music Encoding Initiative</hi>
+               einerseits eine Organisation, die aus einem internationalen Zusammenschluss von
+               Forscherinnen und Forschern besteht, und andererseits zugleich das Ergebnis, das von
+               dieser Forschergemeinschaft erarbeitet worden ist: ein Codierungsformat bzw. einen
+               Codierungsstandard, durch den möglichst alle Erscheinungsformen konventioneller
+               Musiknotation (CMN, Common Western Notation) erfasst werden sollen. Mit dem Standard
+               soll einerseits ein maschineller Zugriff auf die Inhalte von Musiknotation
+               (einschließlich der Möglichkeit zur automatisierbaren Suche, Extraktion und
+               Reorganisation von Daten) verwirklicht, andererseits aber auch ein auf der
+               Auszeichnungssprache XML basierendes Langzeit-Archivformat für musikalische Daten
+               geschaffen werden, das musikalische Inhalte und deren Darstellung strikt voneinander
+               trennt.</p>
+            <p>Schon der Name des Formats gibt zu erkennen, dass Vorbild sowohl für die Organisation
+               als auch für die Codierungsform das speziell für geisteswissenschaftliche Forschung
+               entwickelte Format der <ref target="https://tei-c.org/">Text Encoding
+                  Initiative</ref> (TEI) war. TEI und MEI teilen drei wesentliche Gemeinsamkeiten,
+               durch die sie als internationale Codierungsformate für Verbal- bzw. für Musiktexte
+               (musikalische Notation) prädestiniert sind: (1) Sie bedienen sich beide einer
+               plattformunabhängigen Auszeichnungssprache, sind (2) sowohl menschen- als auch
+               maschinenlesbar und können (3) bedarfsweise an besondere Anwendungsfälle angepasst
+               werden, weil sie sich der Extensible Markup Language (XML) bedienen. Das
+               Codierungsformat MEI wurde von der Library of Congress, Washington in die <ref
+                  target="https://www.loc.gov/preservation/digital/formats/fdd/fdd000502.shtml"
+                  >Liste der empfohlenen Formatspezifikationen</ref> aufgenommen und damit in seinem
+               Anspruch auf einen internationalen Standard bestätigt.</p>
+            <p>Die Entwicklung von MEI wurde 1999 maßgeblich von Perry Roland (University of
+               Virginia, Charlottesville, USA) angeregt und seit 2009 innerhalb eines mehrjährigen
+               DFG/NEH-Projekts, das gemeinsam von der University of Virginia (Perry Roland, Erin
+               Mayhood) und dem Musikwissenschaftlichen Seminar Detmold/Paderborn (Johannes Kepper,
+               Maja Hartwig, Kristina Richts, Joachim Veit) durchgeführt wurde, in ein
+               internationales Community-Projekt überführt, an dem sich seither eine stetig
+               wachsende Zahl von Musikwissenschaftler*innen, Bibliothekar*innen, Musiker*innen und
+               Informatiker*innen beteiligt. Das in dieser Community entwickelte <hi rend="italic"
+                  >Digital Music Notation Data Model und Prototype Delivery System</hi> führte im
+               Mai 2010 zur Veröffentlichung eines ersten gemeinsamen Schema-Releases, das in den
+               folgenden Jahren kontinuierlich überarbeitet und erweitert wurde; 2018 wurde das
+               4.0-Schema veröffentlicht. Zudem findet seit 2013 jedes Jahr im Mai die Music
+               Encoding Conference (MEC) statt, die Interessierten aus aller Welt die Möglichkeit
+               gibt, ihre Forschung mit und an MEI vorzustellen und zu diskutieren.</p>
+            <p>Das MEI-Format enthält verschiedene Module zu beispielsweise Common Music Notation,
+               aber auch zu Neumen, Mensuralnotation, Tabulatur oder Metadaten (Daten über Daten)
+               und stellt zudem Markup für Analysen bereit. Neben der ausführlichen Dokumentation
+               des Schemas in den <ref
+                  target="https://music-encoding.org/guidelines/v5/content/index.html"
+                  >Guidelines</ref> inklusive einer Einführung in MEI gibt es auf der Website <ref
+                  target="https://music-encoding.org/resources/tutorials.html">Tutorials</ref>;
+               ferner finden sich dort Verweise auf <ref
+                  target="https://music-encoding.org/resources/tools.html">Tools</ref>, die die
+               Arbeit mit MEI unterstützen, darunter befindet sich z. B. auch das im
+               Beethoven-Projekt benutzte Darstellungstool <ref
+                  target="https://beethovens-werkstatt.de/glossary/verovio/">Verovio</ref>. Diese
+               Tools tragen mit dazu bei, dass die Zahl der mit MEI arbeitenden Projekte weltweit
+               wächst und damit zugleich auch Voraussetzungen für neuartige Untersuchungen auf
+               umfangreicheren Datencorpora geschaffen werden. Zugleich schafft MEI Grundlagen für
+               einen auf Musiknotentexte bezogenen Datenaustausch zwischen Archiven, Bibliotheken,
+               öffentlichen oder privaten Sammlungen und der musikwissenschaftlichen Forschung und
+               fördert auch die Arbeit innerhalb interdisziplinärer Forschungszusammenschlüsse,
+               indem z. B. text-, bild- und musikbezogene Dokumente so miteinander in Beziehung
+               gesetzt werden können, dass kulturgeschichtlich komplexe Sachverhalte, die bislang
+               eher einer fachspezifisch verengten und damit isolierten Perspektive unterworfen
+               waren, nunmehr in angemessener Weise gemeinsam dokumentiert werden können.</p>
+            <p>MEI-Dateien beginnen grundsätzlich mit einem Kopf-Bereich (dem sog. MEI-Header), der
+               die Metadaten zu den im nachfolgenden Music-Bereich erfassten musikalischen Inhalten
+               dokumentiert. Hauptbestandteile der Codierung der Musik selbst sind Elemente und
+               Attribute. Eine einzelne Achtel-Note c‘ kann beispielsweise so codiert werden:</p>
+            <p>
+               <code>&lt;note pname="c" oct="4" dur="8"/&gt;</code>
+            </p>
+            <p>Dem Element <code>note</code> werden dabei entsprechende Attribute
+                  (<code>pname</code> = pitchname/Tonhöhe; <code>oct</code> = octave/Oktave,
+               angegeben in der englischen Nomenklatur; <code>dur</code> = duration/Tondauer)
+               zugewiesen. Einer der großen Vorteile von MEI ist die Möglichkeit, Varianten an Ort
+               und Stelle innerhalb einer Codierung von Musik zu erfassen und sie über die
+               Kennzeichnung als Apparateinträge (mit Lemma oder Lesarten) für eine Auswertung
+               zugänglich zu machen. Zudem können an jeder Stelle der Codierung verbale Annotationen
+               eingefügt werden, die Sachverhalte jenseits maschineller Erfassbarkeit
+               kommentieren.</p>
+            <p><hi rend="italic">Beethovens Werkstatt</hi> nutzt MEI, um sämtliche in den jeweiligen
+               Modulen als relevant erachteten Informationen und Inhalte der erfassten Beispiele in
+               eindeutiger Form zu speichern. Da die Textgenetik für MEI einen neuen Aspekt
+               darstellt, der bislang kaum berücksichtigt wurde, wurde im <ref
+                  target="https://beethovens-werkstatt.de/modul-1/">ersten Modul</ref> diesbezüglich
+               ein neues, erweiterndes Codierungsmodell entwickelt, das den Anforderungen des
+               Projekts entspricht. Der so erzeugte Quelltext enthält dabei die genetischen
+               Textinformationen, die Transkription, die wechselseitigen Bezüge der einzelnen
+               Zeichen von der Transkription zu dem digitalen Faksimile, Kommentare, deiktische
+               Hilfestellungen und Quelleninformationen. Auf Grundlage dieser umfassenden Codierung
+               werden dann mit entsprechenden Tools die Informationen automatisch in eine
+               Anzeigeform überführt. Dabei ist z. B. das erwähnte Verovio für die Darstellung der
+               Transkriptionen zuständig. Im <ref target="https://beethovens-werkstatt.de/modul-2/"
+                  >zweiten Modul</ref> wurden die MEI-Daten in Verbindung mit der XML-Daten
+               verarbeitenden Programmiersprache XSLT dazu benutzt, automatisch zu erkennen,
+               inwiefern sich Fassungen beispielsweise auf der Ebene der Einzelnoten oder harmonisch
+               voneinander unterscheiden.</p>
+            <p><hi rend="italic">Beethovens Werkstatt</hi> wird innerhalb der MEI-Community zu einer stetigen
+               Weiterentwicklung des Formats im Kontext der Thematik textgenetischer Fragestellungen
+               beitragen, da sich MEI als ein vielversprechender Weg zur Erfassung und neuartigen
+               Vermittlung von Erkenntnissen zur Textgenese erwiesen hat.</p>
+         </div>
+         <div type="version">
+            <p>
+               <name ref="https://orcid.org/0009-0002-8649-543X">Richard Sänger</name>
+               <date when="2017-03-09"/>
+               <num n="1.0.2"/>
+            </p>
+         </div>
+         <div type="doi">
+            <p>
+               <ptr type="zenodo-all" target="DOI 10.5281/zenodo.16675885"/>
+               <ptr type="zenodo-single" n="1.0.0" target="10.5281/zenodo.16675886"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
