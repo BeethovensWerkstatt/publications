@@ -8,6 +8,7 @@
          <titleStmt>
             <title n="extern">MEI</title>
             <author ref="https://orcid.org/0009-0002-8649-543X">Richard Sänger</author>
+            <author ref="https://orcid.org/0000-0002-4250-6937">Agnes Seipelt</author>
             <funder ref="https://www.adwmainz.de/">Akademie der Wissenschaften und der Literatur
                Mainz</funder>
          </titleStmt>
@@ -36,6 +37,10 @@
          <change when="2025-08-01">
             <name ref="https://orcid.org/0000-0003-2915-353X">Kristin Herold</name>
             <desc>Initial transfer of html article v1.0.2 to TEI.</desc>
+         </change>
+         <change when="2025-08-01">
+            <name ref="https://orcid.org/0000-0003-2915-353X">Kristin Herold</name>
+            <desc>adapt changes from v1.0.2 to v1.2.0.</desc>
          </change>
       </revisionDesc>
    </teiHeader>
@@ -152,14 +157,16 @@
          <div type="version">
             <p>
                <name ref="https://orcid.org/0009-0002-8649-543X">Richard Sänger</name>
-               <date when="2017-03-09"/>
-               <num n="1.0.2"/>
+               <name ref="https://orcid.org/0000-0002-4250-6937">Agnes Seipelt</name>
+               <date when="2020-09-29"/>
+               <num n="1.2.0"/>
             </p>
          </div>
          <div type="doi">
             <p>
                <ptr type="zenodo-all" target="DOI 10.5281/zenodo.16675885"/>
-               <ptr type="zenodo-single" n="1.0.0" target="10.5281/zenodo.16675886"/>
+               <ptr type="zenodo-single" n="1.0.2" target="10.5281/zenodo.16675886"/>
+               <ptr type="zenodo-single" n="1.2.0" target=""/>
             </p>
          </div>
       </body>
