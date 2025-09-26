@@ -26,7 +26,7 @@
             <availability>
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/"/>
             </availability>
-            <date when="2025-07-30"/>
+            <date when="2015-05-07"/>
          </publicationStmt>
          <sourceDesc>
             <p>html from old project website</p>
@@ -84,7 +84,7 @@
          <div type="version">
             <p>
                <name ref="https://orcid.org/0000-0003-4891-260X">Johannes Kepper</name>
-               <date when="2025-07-30"/>
+               <date when="2015-05-07"/>
                <num n="1.0.0"/>
             </p>
          </div>
