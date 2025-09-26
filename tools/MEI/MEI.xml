@@ -151,7 +151,7 @@
          </div>
          <div type="doi">
             <p>
-               <ptr type="zenodo-all" target="DOI 10.5281/zenodo.16675885"/>
+               <ptr type="zenodo-all" target="10.5281/zenodo.16675885"/>
                <ptr type="zenodo-single" n="1.0.2" target="10.5281/zenodo.16675886"/>
             </p>
          </div>
