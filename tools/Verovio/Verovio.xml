@@ -8,6 +8,7 @@
             <titleStmt>
                 <title n="extern">Verovio</title>
                 <author ref="https://d-nb.info/gnd/1024973166">Maja Hartwig</author>
+                <author ref="https://orcid.org/0000-0003-4891-260X">Johannes Kepper</author>
                 <editor ref="https://beethovens-werkstatt.de/">Beethovens Werkstatt</editor>
                 <funder ref="https://www.adwmainz.de/">Akademie der Wissenschaften und der Literatur
                     Mainz</funder>
@@ -38,6 +39,12 @@
                 <name ref="https://orcid.org/0000-0003-2915-353X">Kristin Herold</name>
                 <desc>Initial transfer of html article v1.0.4 to TEI.</desc>
             </change>
+            <change when="2025-11-04">
+                <name ref="https://orcid.org/0000-0003-2915-353X">Kristin Herold</name>
+                <desc>synchronize and update from tool page of website to the Verovio-article v1.0.4
+                    of the glossary (we had two places with an article about verovio). The
+                    synchronized text gets v1.1.0.</desc>
+            </change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -54,33 +61,52 @@
                 <p>Das von Laurent Pugin (RISM, Schweiz) entwickelte Werkzeug Verovio dient der
                     Übertragung von <ref target="../MEI/MEI.xml">MEI</ref>-Code in lesbare
                     Notenschrift, welche mithilfe des Datenformats <ref target="../svg/SVG.xml"
-                        >SVG</ref> umgesetzt wird. Das Werkzeug ist nicht zu verwechseln mit einem
-                    Notensatzprogramm wie z. B. Finale oder Sibelius. In Verovio wird ausschließlich
-                    der MEI-Code ausgewertet und in eine neue Darstellung überführt (also
-                    „gerendert“), es werden keine Noten in ein Programm eingegeben.</p>
-                <p>Im Projekt <hi rend="italic">Beethovens Werkstatt</hi> spielt das
-                    Verovio-Werkzeug, welches in den Prototyp eingebaut ist, eine wichtige Rolle,
-                    denn in der MEI-Codierung werden eingefügte SVG-Pfade im Quellcode des Prototyps
-                    angesprochen und in Notentext übersetzt. Somit können im Prototyp neben dem
-                    Faksimile sowohl der MEI-Code als auch dessen Transkription angezeigt
-                    werden.</p>
-                <p>Verovio ist bereits ein stabiles Werkzeug und befindet sich in der stetigen
-                    Weiterentwicklung, damit auch komplexere Details der MEI-Codierung in der
-                    Anzeige dargestellt werden können.</p>
-                <p>Weitere Informationen sowie die Dokumentation zur Entwicklung des Werkzeugs 
-                    sind auf http://rism-ch.github.io/verovio/index.xhtml zu finden.</p>
+                        >SVG</ref> umgesetzt wird. <lb/>In <hi rend="italic">Beethovens
+                        Werkstatt</hi> spielt das Tool bei der Entwicklung der Prototypen und der
+                    VideApp eine wichtige Rolle, da in der MEI-Codierung eingefügte SVG-Pfade,
+                    welche mithilfe der <ref target="../Genetic-Sandbox/Genetic-Sandbox.xml">Genetic
+                        Sandbox</ref> erzeugt und anschließend generiert werden können, im Quellcode
+                    des Prototyps angesprochen und durch das eingebundene Verovio-Werkzeug in
+                    Notentext übersetzt werden. Somit können im Prototyp bzw. der VideApp neben dem
+                    Faksimile sowohl der MEI-Code als auch dessen Transkription inklusive sämtlicher
+                    Varianten angezeigt werden.</p>
+                <figure>
+                    <figDesc/>
+                    <graphic url="./Verovio_svg.png"/>
+                </figure>
+                <p>Zu Beginn des Projektes befand sich auch die Entwicklung des Verovio-Werkzeugs
+                    noch im Anfangsstadium. Aufgrund dessen beinhaltet die Noten-Anzeige in den
+                    Prototypen zu den Beispielen Op. 111 und Op. 59,3 noch kleinere
+                    Darstellungsprobleme (wie z. B. die korrekte Anzeige von Akkorden), derer sich
+                    <hi rend="italic">Beethovens Werkstatt</hi> zwar bewusst ist, deshalb jedoch nicht auf die
+                    Transkriptionen verzichten wollte. Inzwischen ist Verovio ein sehr stabiles
+                    Werkzeug, das sich in der stetigen Weiterentwicklung und auch in beständigem
+                    Austausch mit unserem Projekt befindet. Komplexe Details der MEI-Codierungen
+                    können mittlerweile dargestellt werden, nahezu sämtliche codierten Inhalte sind
+                    Bestandteil der Transkription. Auch das Abspielen der Noten einer mit Verovio
+                    gerenderten Datei ist möglich. Darüber hinaus unterstützt das Werkzeug das
+                    Konvertieren von MusicXML-Dateien nach MEI, die wiederum mit dem <ref target="http://www.verovio.org/mei-viewer.xhtml">MEI Viewer</ref>
+                    direkt in lesbare Notenschrift übertragen werden können.</p>
+                <figure>
+                    <figDesc/>
+                    <graphic url="./Verovio_meiViewer.png"/>
+                </figure>
+                <p>Das Rendering mit Verovio erfordert eine valide MEI-Datei sowie einige wenige Bedingungen innerhalb der Codierung zur problemlosen Anzeige. Zum Beispiel werden Noten, die ohne Angabe eines Wertes codiert sind, als Brevis dargestellt. Text, der innerhalb eines Notenelementes als Attribut codiert wird, kann noch nicht angezeigt werden. Stattdessen ist eine Text-Codierung als Element erforderlich. Vereinzelte Ornamentationen und Artikulationszeichen können noch nicht angezeigt werden, insgesamt ist das Rendering von „Common Music Notation“ aber schon sehr weit fortgeschritten und nahezu fehlerfrei.
+                    Die Dokumentation der technischen Entwicklungen ist auf <ref target="https://github.com/rism-ch/verovio">GitHub</ref> nachzulesen.</p>
             </div>
             <div n="version">
                 <p>
                     <name ref="https://d-nb.info/gnd/1024973166">Maja Hartwig</name>
-                    <date when="2021-01-20"/>
-                    <num n="1.0.4"/>
+                    <name ref="https://orcid.org/0000-0003-4891-260X">Johannes Kepper</name>
+                    <date when="2025-11-04"/>
+                    <num n="1.1.0"/>
                 </p>
             </div>
             <div n="doi">
                 <p>
                     <ptr type="zenodo-all" target="10.5281/zenodo.17524560"/>
                     <ptr type="zenodo-single" n="1.0.4" target="10.5281/zenodo.17524561"/>
+                    <ptr type="zenodo-single" n="1.1.0" target=""/>
                 </p>
             </div>
         </body>
